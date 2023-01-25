@@ -1,0 +1,31 @@
+<!-- <div class="container-fluid">
+    <div class="card">
+        <label for="email">Email Id</label>
+         <input type="text" placeholder="Enter Email address" claass="form-control" name="username">
+         <label for="email">Email Id</label>
+         <input type="text" placeholder="Enter Email address" claass="form-control" name="username">
+
+         <button class="btn btn-success">Login</button>
+    </div>
+</div> -->
+<div class="signin-content" >
+    <mat-card>
+      <mat-card-content>
+        <form>
+          <p>Please login to continue</p>
+          <mat-form-field class="full-width-input">
+            <input matInput placeholder="email" [(ngModel)]="postData.email" name="email">
+             
+          </mat-form-field>
+          <mat-form-field class="full-width-input">
+            <input matInput type="password" [(ngModel)]="postData.password" name="password" placeholder="password" >
+             
+          </mat-form-field>
+          <button mat-raised-button class="btn btn-success" (click)="login()">Login</button>
+          <button mat-raised-button class="btn btn-primary" (click)="signup()">Signup</button>
+        </form>
+         
+
+      </mat-card-content>
+    </mat-card>
+  </div>

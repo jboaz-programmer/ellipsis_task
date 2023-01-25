@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="signin-content" >
+        <mat-card>
+          <mat-card-content>
+            <form  >
+              <p>User registration</p>
+              <mat-form-field class="full-width-input">
+                <input matInput type="text" placeholder="Enter Name" [(ngModel)]="postData.name" name="name">
+                 
+              </mat-form-field>
+              <mat-form-field class="full-width-input">
+                <input matInput type="email" [(ngModel)]="postData.email" name="email" placeholder="enter User email" >
+                 
+              </mat-form-field>
+              <mat-form-field class="full-width-input">
+                <input matInput type="text" [(ngModel)]="postData.mobile" name="mobile" placeholder="mobile" >
+                 
+              </mat-form-field>
+              <mat-form-field class="full-width-input">
+                <input matInput type="password" name="password" [(ngModel)]="postData.password"   placeholder="Enter password" >
+                 
+              </mat-form-field>
+              <mat-form-field class="full-width-input">
+                <input matInput type="text" [(ngModel)]="postData.sex" name="sex"  placeholder="Enter Gender" >     
+              </mat-form-field>
+              <button mat-raised-button class="btn btn-success" color="primary"  (click)="saveData()">Register </button>
+              <!-- <button mat-raised-button class="btn btn-primary" color="secondary"  (click)="login()">login </button> -->
+            </form>
+          </mat-card-content>
+        </mat-card>
+      </div>
+</div>
