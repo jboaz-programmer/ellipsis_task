@@ -1,7 +1,11 @@
-# EllipsPr
+#PHP developer Task by Jimmy Boaz
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+requirement
+framework Angular
+install node js version V14.20.0
+open the cloned project directory in cmd and run "npm install" 
 
+ 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
